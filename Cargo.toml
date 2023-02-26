@@ -1,0 +1,15 @@
+[package]
+name = "pot-conditioner"
+description = "Signal conditioner for analog potentiometer readouts."
+version = "0.1.0"
+authors = ["Oliver Rockstedt <info@sourcebox.de>"]
+license = "MIT"
+edition = "2021"
+rust-version = "1.56"
+repository = "https://github.com/sourcebox/pot-conditioner-rs"
+categories = ["no-std", "embedded", "hardware-support"]
+keywords = ["potentiometer", "smoothing"]
+
+[dependencies]
+dyn-smooth = "0.2"
+backlash = "0.1"
